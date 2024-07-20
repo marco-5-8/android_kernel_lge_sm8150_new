@@ -13,10 +13,11 @@ echo
 mkdir -p out
 export ARCH=arm64
 export SUBARCH=arm64
-export CLANG_PATH=~/toolchains/clang/bin
+export CLANG_PATH=~/toolchains/weebx-clang15/bin
 export PATH=${CLANG_PATH}:${PATH}
 export CROSS_COMPILE=aarch64-linux-gnu-
 export CROSS_COMPILE_ARM32=arm-linux-gnueabi-
+export CLANG_TRIPLE=aarch64-linux-gnu-
 
 echo
 echo "Set DEFCONFIG"

@@ -4,7 +4,7 @@
 #
 
 # KernelSU
-CONFIG_KSU=y
+CONFIG_KSU=n
 
 CONFIG_ARM64=y
 CONFIG_64BIT=y

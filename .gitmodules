@@ -1,7 +1,7 @@
-[submodule "KernelSU"]
-	path = KernelSU
-	url = https://github.com/Dawid2849/KernelSU
 [submodule "susfs4ksu"]
 	path = susfs4ksu
 	url = https://gitlab.com/simonpunk/susfs4ksu
 	ignore = dirty
+[submodule "KernelSU"]
+	path = KernelSU
+	url = https://github.com/natsumerinchan/KernelSU

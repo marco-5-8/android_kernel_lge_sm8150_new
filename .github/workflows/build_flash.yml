@@ -1,8 +1,8 @@
-name: Build and Copy Artifacts
+name: build_flash
 
 on:
   push:
-    branches: [main]
+    branches: [OpenELA-4.14.y-Stock]
 
 jobs:
   build-and-copy:

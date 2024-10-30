@@ -21,9 +21,11 @@ jobs:
           # Download and install toolchains (adjust paths as needed)
           mkdir ~/toolchains
           cd ~/toolchains
-          git clone https://gitlab.com/XSans0/weebx-clang.git
+          git clone https://gitlab.com/XSans0/weebx-clang.git weebx-clang15
 
       - name: Build and Copy
         run: |
+          cd 
+          git clone https://github.com/sidex15/android_kernel_lge_sm8150 
           cd ~/android_kernel_lge_sm8150
           bash build_flash.sh

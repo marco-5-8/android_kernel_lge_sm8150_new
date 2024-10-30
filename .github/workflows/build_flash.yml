@@ -1,7 +1,8 @@
 name: build_flash
 
 on:
-  push:
+  workflow_dispatch:
+  push: 
     branches: [OpenELA-4.14.y-Stock]
 
 jobs:

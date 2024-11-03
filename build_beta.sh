@@ -32,7 +32,7 @@ make CC=clang AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump ST
 # Copy the current Image.gz-dtb to history with incremented name
 history_dir=./release/Dragon/history-beta
 mkdir -p $history_dir
-current_file=./release/Dragon/Image.gz-dtb
+current_file=./release/Dragon/Image-beta.gz-dtb
 if [ -f "$current_file" ]; then
     n=$(ls $history_dir | grep -oP '^Image-beta\K\d+(?=\.gz-dtb$)' | sort -nr | head -n1)
     n=$((n + 1))

@@ -7,4 +7,4 @@
 	path = KernelSU
 	branch = non-gki-n3x7g3n
 	url = https://github.com/sidex15/KernelSU
-	ignore = dirty
+	ignore = all
